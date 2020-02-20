@@ -24,15 +24,15 @@ Solving with old solver
 =======================
 
 Solving relation:
-<All>:
-| | <Any>:
+<All> :
+| | <Any> :
 | | | | Unify %X <= 1
 | | | | Unify %X <= 2
 | | | | Unify %X <= 3
 | | | | Unify %X <= 4
 | | | | Unify %X <= 5
 | | | | Unify %X <= 6
-| | Bind %X <=> %Y 
+| | Bind %X <=> %Y (convert: *3) 
 | | Predicate Is_Even on %X
 | | Member %Y {12, 18}
 Solution: [%X = 4, %Y = 12]

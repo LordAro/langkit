@@ -12,7 +12,7 @@ Solving with old solver
 =======================
 
 Solving relation:
-<All>:
+<All> :
 | | Unify %X <= 2
 | | Unify %Y <= 1
 | | PREDICATE Is_Double_Of ON %X%Y

@@ -19,7 +19,7 @@ class AdalogDriver(BaseDriver):
                 """
 with Ada.Text_IO; use Ada.Text_IO;
 
-with Langkit_Support.Adalog;
+with Langkit_Support.Adalog; use Langkit_Support.Adalog;
 with Langkit_Support.Adalog.Main_Support;
 
 with Main;
@@ -27,6 +27,7 @@ with Main;
 procedure Adalog_Main is
     use Langkit_Support.Adalog.Main_Support.T_Solver;
 begin
+    Set_Kind (Symbolic);
     Put_Line ("Solving with new solver");
     Put_Line ("=======================");
     Put_Line ("");

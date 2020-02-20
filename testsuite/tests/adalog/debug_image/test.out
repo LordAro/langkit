@@ -117,9 +117,9 @@ Solution: [%X = 3, %Y = 3]
 ========================================================================
 
 Solving relation:
-<All>:
+<All> main.adb:41:
 | | Member %X {1, 2, 3}
-| | <Any>:
+| | <Any> main.adb:40:
 | | | | Member %X {10, 20}
 | | | | Predicate Is_Even on %Y
 | | Member %Y {1, 3, 5, 10}
@@ -129,7 +129,7 @@ Solution: [%X = 3, %Y = 10]
 ========================================================================
 
 Solving relation:
-<All>:
+<All> main.adb:45:
 | | Predicate Is_Even on %Y
 | | Member %X {1, 2, 3}
 Resolution failed with Early_Binding_Error

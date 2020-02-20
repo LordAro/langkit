@@ -67,32 +67,33 @@ Solving with old solver
 ========================================================================
 
 Solving relation:
-<All>:
+<All> :
 | | Member %X {6, 9}
 | | Member %Y {9, 16}
-| | Unify %X <= 3 
-| | Unify %Y <= 4 
+| | Unify %X <= 3 (convert: Square) 
+| | Unify %Y <= 4 (convert: Square) 
+Solution: [%X = 9, %Y = 16]
 ========================================================================
 
 Solving relation:
 <All>:
 | | Member %Y {2, 3}
-| | Unify %X <= 4 
+| | Unify %X <= 4 (convert: Square) 
 Solution: [%X = 16, %Y = 2]
 Solution: [%X = 16, %Y = 3]
 ========================================================================
 
 Solving relation:
-<All>:
+<All> :
 | | Predicate Is_Even on %X
-| | Unify %X <= 3 
-| | Bind %X <=> %Y 
+| | Unify %X <= 3 (convert: Square) 
+| | Bind %X <=> %Y (convert: Square) 
 ========================================================================
 
 Solving relation:
-<All>:
+<All> :
 | | Member %X {1, 2, 3, 4, 5, 6, 7, 8}
-| | Bind %X <=> %Y 
+| | Bind %X <=> %Y (convert: Square) 
 Solution: [%X = 1, %Y = 1]
 Solution: [%X = 2, %Y = 4]
 Solution: [%X = 3, %Y = 9]

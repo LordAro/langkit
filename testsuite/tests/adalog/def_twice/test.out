@@ -19,8 +19,9 @@ Solving with old solver
 =======================
 
 Solving relation:
-<All>:
+<All> :
 | | Member %X {1, 2, 3, 4, 5, 6}
 | | Unify %X <= 1 
 | | Predicate Is_Odd on %X
+Solution: [%X = 1]
 Done.

@@ -29,14 +29,14 @@ Solving with old solver
 =======================
 
 Solving relation:
-<All>:
-| | <Any>:
+<All> :
+| | <Any> :
 | | | | Bind %X <=> %Y
 | | | | <True>
-| | <Any>:
+| | <Any> :
 | | | | Member %X {1, 2}
 | | | | <True>
-| | <Any>:
+| | <Any> :
 | | | | Member %Y {-1, -2}
 | | | | <True>
 | | PREDICATE N_Predicate ON %X%Y
